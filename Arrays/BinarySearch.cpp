@@ -27,6 +27,7 @@ int main(){
     int index1 = binarysearch(arr, size, key);
     if(index1 != -1){
         cout<<key<<" is present at index "<<index1<<endl;
+        cout<<"Position is : "<<index1+1<<endl;
     }else{
         cout<<key<<" is not found!"<<endl;
     }
